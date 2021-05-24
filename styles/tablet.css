@@ -1,0 +1,16 @@
+.bouton-filtre,
+.titre-filtre {
+  margin-top: 16px;
+}
+.filtres-container {
+  padding: 4px 0 20px 0;
+}
+.hébergements.container {
+  display: flex;
+  flex-flow: column-reverse wrap;
+}
+#hébergement .hébergementsproposés {
+  order: 1;
+  flex: 1;
+  margin-right: 0%;
+}

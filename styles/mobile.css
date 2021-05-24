@@ -1,0 +1,135 @@
+#nav {
+  margin: 15px;
+  padding: 0px;
+}
+header {
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+#logo {
+  text-align: left;
+  flex-grow: 1;
+}
+
+footer {
+  flex-flow: row wrap;
+}
+
+header nav {
+  flex-flow: row wrap;
+  order: 2;
+  justify-content: center;
+  display: flex;
+}
+
+header a {
+  padding-left: inherit;
+}
+
+#register :hover {
+  text-decoration: overline;
+}
+
+#register {
+  order: 1;
+  text-align: right;
+  padding: 0 1rem;
+  margin-top: 5px;
+}
+
+.titre-filtre {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  margin-top: 0px;
+}
+.bouton-filtre {
+  margin-top: 16px;
+}
+.filtres-container {
+  align-items: baseline;
+  flex-flow: column wrap;
+}
+
+.hébergements.container {
+  display: flex;
+  flex-flow: column-reverse wrap;
+}
+#hébergement.hébergementsproposés {
+  order: 1;
+  flex: 1;
+  margin-right: 0%;
+}
+#hébergement .hébergementsproposés .group-item {
+  flex-flow: column wrap;
+  align-items: baseline;
+}
+#hébergement .fondgris {
+  background: whitesmoke;
+  border-radius: 0px !important;
+  padding: 30px 25px;
+  min-height: 519px;
+  margin-bottom: 0px;
+}
+#hébergement .fondgris .group-item {
+  flex-direction: column;
+  padding: 1rem;
+}
+#hébergement .fondgris .group-item figure {
+  transform: scale(1.05);
+  width: auto;
+  background: white;
+  width: 100%;
+}
+.hébergementsproposés .fondgris {
+  background: white !important;
+  object-fit: cover;
+}
+#hébergement .fondgris {
+  flex-direction: column;
+}
+
+#activites .group-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#activites .group-item .columndouble .column {
+  min-width: 45%;
+  max-width: 45%;
+}
+#activites .group-item .column {
+  width: 100%;
+}
+#activites .group-item .columndouble,
+#activites .group-item .column {
+  max-width: none;
+}
+#activites .group-item .item {
+  height: 155px;
+}
+#activites .group-item .column .item {
+  height: 155px;
+}
+#register-mobile {
+  display: block;
+}
+#register {
+  display: none !important;
+}
+header nav {
+  flex-flow: column wrap;
+  order: 2;
+  justify-content: center;
+  display: flex;
+}
+.nav-activites {
+  width: 50%;
+}
+.nav-hébergements {
+  width: 50%;
+}
+#nav {
+  text-align: center;
+  margin-bottom: unset;
+}
