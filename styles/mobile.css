@@ -111,25 +111,14 @@ header a {
 #activites .group-item .column .item {
   height: 155px;
 }
-#register-mobile {
-  display: block;
-}
-#register {
-  display: none !important;
-}
-header nav {
+
+header-nav {
   flex-flow: column wrap;
-  order: 2;
-  justify-content: center;
-  display: flex;
+  text-align: center;
 }
 .nav-activites {
   width: 50%;
 }
 .nav-hébergements {
   width: 50%;
-}
-#nav {
-  text-align: center;
-  margin-bottom: unset;
 }

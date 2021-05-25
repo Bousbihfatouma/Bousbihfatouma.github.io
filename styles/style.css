@@ -2,7 +2,6 @@
   font-family: "Raleway";
   src: url("../fonts/font-awesome/Raleway-Regular.ttf") format("truetype");
 }
-
 body {
   font-family: "Raleway", sans-serif;
   padding: 0 32px;
@@ -21,15 +20,17 @@ body {
 
   margin: 0;
 }
-nav {
+
+header {
   display: flex;
+
   justify-content: space-between;
+}
+
+header nav {
   align-self: center;
 }
-#nav-mobile {
-  display: flex;
-  align-items: center;
-}
+
 header a {
   text-decoration: none;
 
@@ -43,24 +44,23 @@ header a:hover {
 
   border-top: 2px solid #0065fc;
 }
-#register-mobile {
-  display: none;
-}
-#register,
-#register-mobile {
+
+#register {
   color: #0065fc;
+
   font-weight: bold;
 }
 
-#register:hover,
-#register-mobile:hover {
+#register:hover {
   border: none;
+
   text-decoration: underline;
 }
 
 #nav {
   display: flex;
 }
+
 /*la barre de recherche*/
 form.recherche .btnLocalization {
   background: gainsboro;
